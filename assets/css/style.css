@@ -1,0 +1,34 @@
+:root {
+    font-size: 10px;
+}
+
+body {
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.refresh {
+    font-size: 30px;
+    padding: 20px 70px 20px 70px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: #FC4F4F;
+}
+
+.refresh:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+}
